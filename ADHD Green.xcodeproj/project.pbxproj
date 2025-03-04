@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		644525452D76FDDA00C12E97 /* ADHD Green.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ADHD Green.xcodeproj"; path = "ADHD Green/ADHD Green.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		64EA7E4A2D75C88400B0CBA9 /* ADHD Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADHD Green.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -29,6 +30,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644525482D76FDDA00C12E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		64EA7E412D75C88400B0CBA9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +105,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64EA7E4B2D75C88400B0CBA9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 644525482D76FDDA00C12E97 /* Products */;
+					ProjectRef = 644525452D76FDDA00C12E97 /* ADHD Green.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				64EA7E492D75C88400B0CBA9 /* ADHD Green */,
