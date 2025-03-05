@@ -58,6 +58,9 @@ struct BreathView: View {
 
 struct BreathView_Previews: PreviewProvider {
     static var previews: some View {
+        
+        
         BreathView()
+        
     }
 }
